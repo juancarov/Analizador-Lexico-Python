@@ -1,4 +1,4 @@
-# Analizador-Lexico-Python
+## Analizador-Lexico-Python
 
 ### Introducción
 
@@ -6,7 +6,7 @@ Este proyecto implementa un analizador léxico escrito en Python puro (sin `re`,
 
 ---
 
-### 1. Definición de Tokens
+#### 1. Definición de Tokens
 
 **Palabras reservadas de Python:** `class`, `def`, `if`, `return`, etc.  
 
