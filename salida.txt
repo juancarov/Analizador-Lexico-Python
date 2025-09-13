@@ -1,0 +1,11 @@
+<class,2,1>
+<id,Test,2,7>
+<tk_dos_puntos,2,11>
+<id,x,3,5>
+<tk_asig,3,7>
+<tk_entero,90,3,9>
+<tk_punto,3,11>
+<tk_entero,00,3,12>
+<tk_punto,3,14>
+<tk_entero,50,3,15>
+>>> Error léxico(linea:4,posicion:10)

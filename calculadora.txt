@@ -1,0 +1,10 @@
+import math
+
+def calc_angle(x: float) -> float:
+    y = math.sin(x) + math.cos(x)
+    return y
+
+angle = math.pi / 2
+result = calc_angle(angle)
+print(result)
+

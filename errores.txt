@@ -1,0 +1,12 @@
+# Esto es un comentario y no debería generar tokens
+class Test:
+    x = 90.00.50    # número con puntos intermedios (debe tokenizar como enteros y puntos)
+    y = 1¬23948998  # carácter inválido ¬ → debe dar error léxico
+
+def broken_code():
+    text = "hola
+    number = 123abc   # identificador mal formado, pero en léxico será id
+    z = 2 ** 3        # si no agregaste ** a los símbolos, esto debería romper
+    if z !== 10:      # operador !== no existe → debería fallar
+        print("ok")
+

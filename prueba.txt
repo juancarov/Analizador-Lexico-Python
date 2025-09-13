@@ -1,0 +1,22 @@
+# Comentario simple, debe ignorarse
+
+x = 90.00.50        # Números con puntos intermedios, deben salir como enteros y puntos
+y = 1¬23948998      # Carácter inválido ¬ → debe dar error
+
+# --- Si tu analizador aborta en el error de arriba, estas líneas no se procesan ---
+# (pero te las dejo para que pruebes una por una si quieres)
+
+z = "hola           # Cadena sin cerrar → error léxico
+
+a = 2.5598055while3!=88¬56.a  # Caso del enunciado
+
+b = 10 !== 20       # El operador !== no existe → error léxico
+
+c = 1 + 2 * (3 - 4) # Expresión matemática válida
+
+d = "cadena" "pegada"   # Concatenación de strings, deberían salir como dos tk_cadena
+
+print("ok")         # Print válido
+
+!=¿                 # Caso del PDF → debe tokenizar != y luego error en ¿
+
